@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
   return (
-    <main className="min-h-screen bg-background pt-24 pb-20">
+    <main className="min-h-screen bg-background pt-24 pb-16 md:pt-32 md:pb-24">
       {/* Header */}
-      <section className="container mx-auto px-4 md:px-6 mb-16 text-center">
+      <section className="container mx-auto px-4 md:px-6 mb-16 md:mb-24 text-center">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-primary dark:text-white font-heading mb-6">
           Our Services
         </h1>
@@ -35,7 +35,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Engineering Services */}
-      <section className="container mx-auto px-4 md:px-6 mb-20">
+      <section className="container mx-auto px-4 md:px-6 mb-16 md:mb-24">
         <div className="mb-10 flex items-center gap-4">
           <div className="h-10 w-1 bg-[#00A8CC] rounded-full" />
           <h2 className="text-3xl font-bold text-primary dark:text-white font-heading">

@@ -6,7 +6,7 @@ import { Facebook, Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide
 
 export function Footer() {
   return (
-    <footer className="bg-muted/30 border-t border-border/50 pt-16 pb-8">
+    <footer className="bg-muted/30 border-t border-border/50 py-16 md:py-24">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
           {/* Column 1: About */}

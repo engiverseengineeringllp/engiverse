@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Code2, Cpu, Globe, Layers } from "lucide-react";
@@ -8,7 +8,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 export function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#f0fdfa] dark:bg-background pt-20 pb-12 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32">
+    <section className="relative w-full overflow-hidden bg-[#f0fdfa] dark:bg-background pt-24 pb-16 md:pt-32 md:pb-24">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20 hidden dark:block"
         fill="#00A8CC"
@@ -63,15 +63,19 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex flex-col sm:flex-row gap-4 mb-16"
+          className="flex flex-row items-center justify-center gap-4 mb-16"
         >
-          <Button size="lg" className="h-12 px-8 text-base bg-secondary hover:bg-secondary/90 text-white shadow-lg shadow-secondary/25 hover:shadow-secondary/40 transition-all duration-300">
-            Get Started
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
-          <Button size="lg" variant="outline" className="h-12 px-8 text-base border-primary/20 text-primary hover:bg-primary/5 hover:border-primary/40 backdrop-blur-sm bg-background/50">
-            Our Services
-          </Button>
+          <Link href="/contact">
+            <Button size="lg" className="h-12 px-8 text-base bg-secondary hover:bg-secondary/90 text-white shadow-lg shadow-secondary/25 hover:shadow-secondary/40 transition-all duration-300">
+              Get Started
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+          <Link href="/services">
+            <Button size="lg" variant="outline" className="h-12 px-8 text-base border-primary/20 text-primary dark:text-white hover:bg-primary/5 hover:border-primary/40 backdrop-blur-sm bg-background/50">
+              Our Services
+            </Button>
+          </Link>
         </motion.div>
 
         {/* Trust Indicators */}
@@ -79,7 +83,7 @@ export function HeroSection() {
            initial={{ opacity: 0 }}
            animate={{ opacity: 1 }}
            transition={{ duration: 0.8, delay: 0.5 }}
-           className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm text-muted-foreground mb-20"
+           className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm text-muted-foreground"
         >
             <div className="flex items-center">
                 <CheckCircle2 className="mr-2 h-4 w-4 text-secondary" />
@@ -94,8 +98,6 @@ export function HeroSection() {
                 <span>24/7 Support</span>
             </div>
         </motion.div>
-
-
 
       </div>
     </section>

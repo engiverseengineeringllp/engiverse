@@ -81,9 +81,6 @@ export function Navigation() {
           {/* Desktop CTA */}
           <div className="flex items-center gap-4">
             <ModeToggle />
-            <Button className="bg-secondary hover:bg-secondary/90 text-white shadow-md shadow-secondary/20">
-              Get Started
-            </Button>
           </div>
         </div>
       </motion.header>
