@@ -31,6 +31,8 @@ export function Navigation() {
     }
   });
 
+  if (pathname.startsWith("/admin")) return null;
+
   return (
     <>
       {/* Desktop Header */}

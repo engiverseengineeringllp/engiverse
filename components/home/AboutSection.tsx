@@ -26,7 +26,7 @@ export function AboutSection() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -63,13 +63,13 @@ export function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="relative h-[400px] w-full rounded-2xl overflow-hidden border border-border/50 shadow-2xl group hidden md:block"
+            className="relative h-full min-h-[400px] w-full rounded-2xl overflow-hidden border border-border/50 shadow-2xl group hidden md:block"
           >
             <Image
-              src="/services/Product Design & 3D Modeling.png"
+              src="/about.png"
               alt="About Engiverse"
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute bottom-0 left-0 p-8">
