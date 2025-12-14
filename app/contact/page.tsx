@@ -111,8 +111,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-foreground">Call Us</p>
-                      <a href="tel:+917021350275" className="text-muted-foreground hover:text-secondary transition-colors">
-                        +91 7021350275
+                      <a href="tel:+919957882204" className="text-muted-foreground hover:text-secondary transition-colors">
+                        +91 9957882204
                       </a>
                     </div>
                   </div>
