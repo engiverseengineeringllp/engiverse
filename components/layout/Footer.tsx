@@ -107,8 +107,8 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <a href="mailto:info@engiverse.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  info@engiverse.com
+                <a href="mailto:business@engiversellp.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  business@engiversellp.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

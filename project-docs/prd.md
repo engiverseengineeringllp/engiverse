@@ -373,7 +373,7 @@ Warning: #F59E0B
 
 - **Backend Processing:**
   - API route in Next.js (/api/contact)
-  - Send email to admin (info@engiverse.com or similar)
+  - Send email to admin (business@engiversellp.com or similar)
   - Store submission in database (optional Phase 2)
   - Auto-reply to user
 
@@ -577,7 +577,7 @@ engiverse-website/
 # Email Service
 RESEND_API_KEY=your_resend_api_key
 EMAIL_FROM=noreply@engiverse.com
-EMAIL_TO=info@engiverse.com
+EMAIL_TO=business@engiversellp.com
 
 # Analytics
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
