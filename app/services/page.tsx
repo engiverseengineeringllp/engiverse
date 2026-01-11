@@ -14,6 +14,7 @@ import {
   Wifi,
   CheckCircle,
   Server,
+  Cloud,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -179,5 +180,13 @@ const softwareServices = [
     icon: <Server className="h-4 w-4 text-neutral-500" />,
     className: "md:col-span-2",
     href: "/services/software-testing-deployment"
+  },
+  {
+    title: "DevOps & Cloud Infrastructure",
+    description: "Building reliable and scalable cloud solutions with modern DevOps practices and automation.",
+    header: <Skeleton src="/services/DevOps & Cloud Infrastructure.png" alt="DevOps" />,
+    icon: <Cloud className="h-4 w-4 text-neutral-500" />,
+    className: "md:col-span-2",
+    href: "/services/devops-cloud-infrastructure"
   },
 ];

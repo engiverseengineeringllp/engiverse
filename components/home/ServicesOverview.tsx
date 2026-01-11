@@ -14,6 +14,7 @@ import {
   Code,
   Globe,
   Wifi,
+  Cloud,
 } from "lucide-react";
 
 export function ServicesOverview() {
@@ -138,5 +139,13 @@ const items = [
     icon: <Wifi className="h-4 w-4 text-neutral-500" />,
     className: "md:col-span-2",
     href: "/services/iot-embedded-systems"
+  },
+  {
+    title: "DevOps & Cloud Infrastructure",
+    description: "Building reliable and scalable cloud solutions with modern DevOps practices.",
+    header: <Skeleton src="/services/DevOps & Cloud Infrastructure.png" alt="DevOps" />,
+    icon: <Cloud className="h-4 w-4 text-neutral-500" />,
+    className: "md:col-span-1",
+    href: "/services/devops-cloud-infrastructure"
   },
 ];

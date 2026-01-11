@@ -187,5 +187,25 @@ export const servicesData: ServiceData[] = [
         "Server Monitoring & Maintenance"
     ],
     image: "/services/Software Testing & Deployment.png"
+  },
+  // 11. DevOps & Cloud Infrastructure
+  {
+    id: "devops-cloud-infrastructure",
+    title: "DevOps & Cloud Infrastructure",
+    shortDescription: "Building reliable and scalable cloud solutions with modern DevOps practices.",
+    fullDescription: "With 9 years of experience building reliable and scalable technology solutions, we specialize in cloud infrastructure, automation, and modern DevOps practices. Our focus is on efficiency, cost optimization, and system reliability to ensure your infrastructure supports your business growth.",
+    subServices: [
+        "Cloud Infrastructure Design (AWS, Azure, GCP)",
+        "CI/CD Pipeline Implementation",
+        "Infrastructure as Code (Terraform, CloudFormation)",
+        "Container Orchestration (Docker, Kubernetes)",
+        "Automated Deployment & Release Management",
+        "Cloud Cost Optimization",
+        "System Monitoring & Observability",
+        "High Availability & Disaster Recovery",
+        "Security & Compliance Automation",
+        "DevOps Consulting & Best Practices"
+    ],
+    image: "/services/DevOps & Cloud Infrastructure.png"
   }
 ];
